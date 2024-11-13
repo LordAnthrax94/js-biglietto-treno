@@ -10,15 +10,20 @@ const maggioreta = 18;
 const over = 65;
 
 let scontoMin = (totale * 20) / 100
-let scontoOver= (totale * 40) / 100
-if(maggioreta < 18){
+let scontoOver = (totale * 40) / 100
+
+if(eta < maggioreta){
   
-  console.log(scontoMin + ' ' + valuta);
-}     
+console.log(scontoMin + ' ' + valuta);
+
+} else if(eta > over){
+
+  console.log(scontoOver + ' ' + valuta);
+
+} 
   
-// if(maggioreta > 65){
-//   console.log(ScontoOver); 
-// }  
+
+  
  
 
  
