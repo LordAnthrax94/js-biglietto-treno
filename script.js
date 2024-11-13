@@ -5,7 +5,7 @@ const prezzomin = 0.21
 const valuta = 'Euro';
 
 let totale = (chilometri * prezzomin);
-console.log(totale + ' ' + valuta);
+// console.log(totale + ' ' + valuta);
 const maggioreta = 18;
 const over = 65;
 
@@ -23,7 +23,9 @@ console.log(prezzoscontMin.toFixed(2) + ' ' + valuta);
 
   console.log(prezzoscontOver.toFixed(2) + ' ' + valuta);
 
-} 
+} else{
+  console.log(totale + ' ' + valuta);
+}
   
 
   
