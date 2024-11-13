@@ -12,16 +12,16 @@ const over = 65;
 let scontoMin = (totale * 20) / 100
 let scontoOver = (totale * 40) / 100
 
-let prezzoscontMin = totale - scontoMin 
-let prezzoscontOver = totale - scontoOver 
+let prezzoscontMin = (totale - scontoMin); 
+let prezzoscontOver = (totale - scontoOver); 
 
 if(eta < maggioreta){
   
-console.log(prezzoscontMin + ' ' + valuta);
+console.log(prezzoscontMin.toFixed(2) + ' ' + valuta);
 
 } else if(eta > over){
 
-  console.log(prezzoscontOver + ' ' + valuta);
+  console.log(prezzoscontOver.toFixed(2) + ' ' + valuta);
 
 } 
   
